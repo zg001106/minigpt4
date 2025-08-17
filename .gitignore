@@ -1,0 +1,32 @@
+# 整个模型目录不传
+model/
+models/
+checkpoints/
+weights/
+outputs/
+runs/ 
+# 常见大模型文件后缀
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+*.tflite
+*.pb
+*.npz
+*.npy 
+# 压缩包/临时文件
+*.zip
+*.7z
+*.tar
+*.tar.gz 
+# 数据集/缓存
+data/
+dataset/
+*.log
+__pycache__/
+.DS_Store 
+# IDE
+.idea/
+.vscode/
