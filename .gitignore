@@ -1,32 +1,29 @@
-# 整个模型目录不传
-model/
-models/
-checkpoints/
-weights/
-outputs/
-runs/ 
-# 常见大模型文件后缀
+# 只忽略这些大目录/产物
+MiniGPT-4/models/
+MiniGPT-4/weights/
+MiniGPT-4/checkpoints/
+MiniGPT-4/outputs/
+MiniGPT-4/runs/
+MiniGPT-4/logs/
+
+# 常见大文件后缀
 *.pt
 *.pth
 *.ckpt
 *.onnx
 *.bin
 *.safetensors
+*.npz
+*.npy
 *.tflite
 *.pb
-*.npz
-*.npy 
-# 压缩包/临时文件
 *.zip
 *.7z
 *.tar
-*.tar.gz 
-# 数据集/缓存
-data/
-dataset/
-*.log
+*.tar.gz
+
+# Python/系统杂项
 __pycache__/
-.DS_Store 
-# IDE
-.idea/
-.vscode/
+*.py[cod]
+*.log
+.DS_Store
